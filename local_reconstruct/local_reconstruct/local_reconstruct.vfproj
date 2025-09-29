@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{4BD4B245-EE09-46F9-B9FA-68F40DDC555B}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\SRC\0calc_initialvalues.f90"/>
+		<File RelativePath="..\SRC\0common_icosproc.f90"/>
+		<File RelativePath="..\SRC\0input_parameters.f90"/>
+		<File RelativePath="..\SRC\0main.f90"/>
+		<File RelativePath="..\SRC\C_matrix.f90"/>
+		<File RelativePath="..\SRC\equalort.f90"/>
+		<File RelativePath="..\SRC\Eularmatrix.f90"/>
+		<File RelativePath="..\SRC\euler_mat.f90"/>
+		<File RelativePath="..\SRC\FFTW.f90"/>
+		<File RelativePath="..\SRC\getCTF2d.f90"/>
+		<File RelativePath="..\SRC\help.f90"/>
+		<File RelativePath="..\SRC\icos_matrix_i2.f90"/>
+		<File RelativePath="..\SRC\icos_matrix_i3.f90"/>
+		<File RelativePath="..\SRC\icos_matrix_i5.f90"/>
+		<File RelativePath="..\SRC\img2d_applyCTF.f90"/>
+		<File RelativePath="..\SRC\img2d_centshift.f90"/>
+		<File RelativePath="..\SRC\img2d_FFT.f90"/>
+		<File RelativePath="..\SRC\img2d_FT_centshift.f90"/>
+		<File RelativePath="..\SRC\img2d_local_box.f90"/>
+		<File RelativePath="..\SRC\img2d_lowpass.f90"/>
+		<File RelativePath="..\SRC\img2d_mask.f90"/>
+		<File RelativePath="..\SRC\img2d_norm.f90"/>
+		<File RelativePath="..\SRC\load_original_ortcent.f90"/>
+		<File RelativePath="..\SRC\mrchead.f90"/>
+		<File RelativePath="..\SRC\print_parameters.f90"/>
+		<File RelativePath="..\SRC\reconstruct.f90"/>
+		<File RelativePath="..\SRC\reconstruct_substep.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>
