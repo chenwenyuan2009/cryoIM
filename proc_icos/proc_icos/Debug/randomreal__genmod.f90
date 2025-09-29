@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Sat Jun 01 11:43:45 2019
+        MODULE RANDOMREAL__genmod
+          INTERFACE 
+            SUBROUTINE RANDOMREAL(RANDX,N)
+              INTEGER(KIND=4) :: N
+              REAL(KIND=4) :: RANDX(N)
+            END SUBROUTINE RANDOMREAL
+          END INTERFACE 
+        END MODULE RANDOMREAL__genmod
