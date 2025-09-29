@@ -1,0 +1,28 @@
+subroutine help
+print*,'Local orientation and center refinement'
+print*,'Cooperate with Local_reconstrict and Icos_loc_box'
+print*,'Usage: Local_refine ...'
+print*,'[local_ort0=ort.dat]'
+print*,'[local_newort=newort.dat]'
+print*,'[model3d=map.mrc]'
+print*,'<minRes=200.0> (angstrom)'
+print*,'<maxRes=10.0> (angstrom)'
+print*,'<apix=1.0> (angstrom)'
+print*,'<first=1>'
+print*,'<last=10000>'
+print*,'<imgmask=200> (angstrom)'
+print*,'<applyCTF=y>'
+print*,'<Ncycle=12>'
+print*,'<vol=200>'
+print*,'<Cs=2.7>'
+print*,'<refine_angle=1.0>(degree)'
+print*,'<refine_shift=1.0>(pixel)'
+print*,'<convF=0.8>'   
+print*,'<imgstck=local.stck>: local image stck file'
+print*,'[particle_df=n]:different defocus values for each particle image'
+print*,'[Zhigh_df=n]:consider the Z high for each position'
+print*,'[sign=,the sign for Z high,only for defocus refinement'
+print*,'Hongrong Liu, HUNNU,  06/05/2020 '
+return
+end
+
