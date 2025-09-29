@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{F541ACF7-60EF-4602-B7FB-FAAC6F76F4FA}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" UseMkl="mklParallel"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" UseMkl="mklSequential"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\SRC\0calc_initialvalues.f90"/>
+		<File RelativePath="..\SRC\0common_icosproc.f90"/>
+		<File RelativePath="..\SRC\0initialvalue.f90"/>
+		<File RelativePath="..\SRC\0input_parameters.f90"/>
+		<File RelativePath="..\SRC\0main.f90"/>
+		<File RelativePath="..\SRC\cal_crosslin_PR.f90"/>
+		<File RelativePath="..\SRC\cal_crosslin_PR_omega.f90"/>
+		<File RelativePath="..\SRC\calc_center.f90"/>
+		<File RelativePath="..\SRC\calc_center_selfrot180.f90"/>
+		<File RelativePath="..\SRC\checkstckfile.f90"/>
+		<File RelativePath="..\SRC\cross_correlation.f90"/>
+		<File RelativePath="..\SRC\euler_mat.f90"/>
+		<File RelativePath="..\SRC\FFTW.f90"/>
+		<File RelativePath="..\SRC\FT_amp_expfit.f90"/>
+		<File RelativePath="..\SRC\get_randomort.f90"/>
+		<File RelativePath="..\SRC\getCTF2d.f90"/>
+		<File RelativePath="..\SRC\guass_regression.f90"/>
+		<File RelativePath="..\SRC\help.f90"/>
+		<File RelativePath="..\SRC\icos2f_sym_mat.f90"/>
+		<File RelativePath="..\SRC\icos_crosslin_angle.f90"/>
+		<File RelativePath="..\SRC\img2d_applyCTF.f90"/>
+		<File RelativePath="..\SRC\img2d_FFT.f90"/>
+		<File RelativePath="..\SRC\img2d_fill_lin_omegearray.f90"/>
+		<File RelativePath="..\SRC\img2d_fill_line.f90"/>
+		<File RelativePath="..\SRC\img2d_FT_centshift.f90"/>
+		<File RelativePath="..\SRC\img2d_lowpass.f90"/>
+		<File RelativePath="..\SRC\img2d_mask.f90"/>
+		<File RelativePath="..\SRC\img2d_norm.f90"/>
+		<File RelativePath="..\SRC\img3d_icosavg.f90"/>
+		<File RelativePath="..\SRC\img3d_mask.f90"/>
+		<File RelativePath="..\SRC\load_original_ortcent.f90"/>
+		<File RelativePath="..\SRC\load_template.f90"/>
+		<File RelativePath="..\SRC\maphead2.f90"/>
+		<File RelativePath="..\SRC\mrchead.f90"/>
+		<File RelativePath="..\SRC\ort_cent_11.f90"/>
+		<File RelativePath="..\SRC\ort_globesearch.f90"/>
+		<File RelativePath="..\SRC\ort_refinement.f90"/>
+		<File RelativePath="..\SRC\output_ort.f90"/>
+		<File RelativePath="..\SRC\project2d.f90"/>
+		<File RelativePath="..\SRC\project2d_FT3dTo2d.f90"/>
+		<File RelativePath="..\SRC\project_template2d.f90"/>
+		<File RelativePath="..\SRC\randomreal.f90"/>
+		<File RelativePath="..\SRC\reconstruct.f90"/>
+		<File RelativePath="..\SRC\reconstruct_C1.f90"/>
+		<File RelativePath=".\reconstruct_C1_substep.f90"/>
+		<File RelativePath="..\SRC\reconstruct_corrCTF.f90"/>
+		<File RelativePath="..\SRC\reconstruct_corrCTF_substep.f90"/>
+		<File RelativePath="..\SRC\reconstruct_FSC.f90"/>
+		<File RelativePath="..\SRC\reconstruct_half.f90"/>
+		<File RelativePath="..\SRC\reconstruct_substep.f90"/>
+		<File RelativePath=".\reconstruction_local.f90"/>
+		<File RelativePath=".\reconstruction_local_substep.f90"/>
+		<File RelativePath="..\SRC\return_icos_asymmetry_unit.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

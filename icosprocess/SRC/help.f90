@@ -1,0 +1,50 @@
+subroutine help
+print*,'ICOSahedral virus data PROCess (ICOSPROC) of cryo-electrom.'
+print*,'Usage:icosprocess <mode=[1]> <ortfile=ort.dat> <apix=1.0> ...'
+
+print*,'1.<mode=[1]>:0:Two-dimensional project only.'
+print*,'             1:3D reconstruction'
+print*,'             2:random 3D reconstruction'
+print*,'             3:calculate particle center according the input model3d if the parameter model3d is defined;'
+print*,'               elsewhere, calculate the center by the use of self-cross correlation by rotate 180 degree, and'
+print*,'               the parameter applyCTF need be n'
+print*,'             4:globe search'
+print*,'             5:local refinement'
+print*,'             6:local ruconstruction(must need loc_box)'
+print*,'2.<ortfile=ort.dat>:input orientation and center file. '
+print*,'3.[apix=1.0], angstrom'
+print*,'4.[minRes=300]: min resolution for orientation determination (angstrom). For GLOB and REF'
+print*,'5.[maxRes=8: target resolution for reconstruction and orientation determination (angstrom). For GLOB and REF'
+print*,'6.[imgmask=FFTsize*apix/2]: mask radius for 2D image (angstrom). For REC, GLOB and REF'
+print*,'7.[first=1]:first particle number for process.'
+print*,'8.[last=1000]:last particle number for process.'
+print*,'9.[PR_threshold=90.0]: the phase threshold for reconstruction. For REC'
+print*,'10.[subrec=y]:sub reconstruction. FOR REC'
+print*,'11.[FSC=y]:calculate FSC between odd and even particle,and add FSC weight for reconstruction. FOR REC'
+print*,'12.[realspaceavg=y]:icosahedral average for 3D map in real space. For REC'
+print*,'13.[result3d=map3d.mrc]: reconstruction result. For REC'
+
+print*,'14.[model3d=map3d.mrc]: 3D model use for orientation and center determination. For GLOB and REF'
+print*,'15.[templateort=template.dat]:template ort file used to globe and refine. For GLOB and REF'
+print*,'16.[templatestck=template.mrc]:template stck file. FOR GLOB and REF'
+print*,'17.[newortfile=newort.dat]: new orientation and center file. For GLOB'
+print*,'18.[Ncycle=6]: cycle number for local refinement. For REF'
+print*,'19.[searchstep=2.0]:angle step for globe search. For GLOB'
+print*,'[check=n]'
+print*,'20.[applyCTF=y]'
+print*,'21.[vol=300]'
+print*,'22.[Cs=2.7]'
+print*,'23.[Bfactor=0]'
+print*,'24.[ampwg=0.1]'
+
+print*,'25.[imgstck=img0.stck]'
+print*,'26.[sym=icos]:point group symmetry, icos, C1'
+print*,'27.[maxcentshift=10]:maximum centshift used to reconstruct'
+print*,'28.[corrCTF=0.005,7]:series defocus reconstruction, defocus_setp=0.005um,cycly=7'
+print*,'29.[boundX=FFTsize/2-2]'
+
+print*,'Hongrong Liu, HUNNU,  07/05/2017 '
+return
+
+end
+
