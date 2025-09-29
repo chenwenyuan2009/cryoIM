@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="icosprocess_mismatch" />
+		<Option pch_mode="2" />
+		<Option compiler="gfortran" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/icosprocess_mismatch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gfortran" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/icosprocess_mismatch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:\TDM-GCC-64\lib\gcc\x86_64-w64-mingw32\4.9.2\libgfortran.a" />
+					<Add library="C:\TDM-GCC-64\lib\gcc\x86_64-w64-mingw32\4.9.2\libgfortran.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="SRC/0main.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/FFT1d.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/FT_amp_expfit.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/align_core-loc.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/align_core.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/align_core_phase.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/align_core_phase_residuel.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/align_findvertex.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/align_vertex.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/cal_crosslin_PR.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/cal_crosslin_PR_omega.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/calc_center-imgstck.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/calc_center.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/calc_center_selfrot180.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/calc_initialvalues.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/checkstckfile.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/common_icosproc.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/common_line_angle.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/cross_correlation.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/dfrefine.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/euler_mat.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/euler_mat_vertex.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/genomeimgstck.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/getCTF2d.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/get_randort_fromicosort.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/guass_regression.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/help.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos2f_sym_mat.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos_crosslin_angle.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos_equalort.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos_equalort05.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos_equalort06.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/icos_equalort12.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/imagepick.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/img2d_FFT.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_FT_centshift.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_applyCTF.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_centshift_FT.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_clip.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_fill.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_fill_lin_omegearray.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_fill_line.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_fitproj.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_lowpass.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_mask.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_norm.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_subproj-new.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img2d_subproj.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img3d_FFT.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img3d_icosavg.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/img3d_mask.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/initialvalue.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/input_parameters.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/load_original_ortcent.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/load_template.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/mapmask.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/mrchead.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/mrcs2stck.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/ort_cent_11.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/ort_globesearch.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/ort_locsearch.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/ort_refinement.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/output_ort.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/project2d.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/project2d_FT3dTo2d.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/project_template2d.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/reconstruct.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/reconstruct_FSC.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/reconstruct_half.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/reconstruct_substep.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/return_icos_asymmetry_unit.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="SRC/tail_mask.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="SRC/test.f90">
+			<Option weight="1" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
